@@ -1,7 +1,10 @@
 /**
- * Hello World JS
+ * Hello World - JavaScript
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); //limpar a tela
-console.log("Hello World");
+//Uso do pacote colors.
+const colors = require('colors');
+
+console.clear(); //Limpar a tela.
+console.log("Hello World".green);
