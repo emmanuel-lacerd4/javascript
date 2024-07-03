@@ -21,7 +21,7 @@ Boas práticas na programação:
 
 5-) Quanto menos código usado para o problema, melhor!
 =========================================================
-comandos de terminal
+Comandos de terminal
 
 cls ou clear (limpar a tela do terminal)
 node -v (exibe a versão do node)
@@ -135,3 +135,72 @@ Variáveis: nota1,nota2,media
 Entrada: nota1,nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media
+    
+    Ex 2:
+    Desenvolver um app modo console para calculo de porcentagem: 1
+    Ex: 10% de 200 = 20
+         x      y    valor
+    200---------100%
+    valor(20)---10%
+valor x 100 = 200 x 10
+valor = 200 x 10
+        ________        valor = 2000
+           100                  ____    valor = 20
+                                100
+//Variáveis
+x, y, valor
+//Entrada
+x, y
+//Processamento
+valor = (x * y) / 100
+//Saída
+valor
+
+Exercício 1:
+Desenvolver um app modo console para calcular o valor do desconto:
+Ex:
+valor total: 200.00
+                x
+desconto: 5%
+           y
+total com desconto: 190.00
+                    valor
+
+//Variáveis
+x, y, valor
+//Entrada
+x, y
+//Processamento
+valor = (x - y) /
+
+190 * 100 = 200 * 5
+valor        x    y
+19.000
+______
+1000
+
+Exercício 2:
+Desenvolver um app no console para conversão de moeda (real para euro).
+
+//Variáveis
+real, euro, total
+//Entrada
+real, euro
+//Processamento
+total = real / euro
+//Saída
+total
+
+Exercício 3:
+calcular a área do circulo
+constantes
+pi = 3,1415
+variaveis
+area, raio, diametro, circunferência
+
+//Entrada
+pi, raio
+//Processamento
+area = pi * raio ao quadrado
+//Saída
+area
