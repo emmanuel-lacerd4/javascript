@@ -5,6 +5,7 @@
 
 //Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
+const colors = require('colors');
 
 //Variáveis
 let nota1, nota2, media;
@@ -18,4 +19,9 @@ nota2 = Number(input.question("Digite a nota 2: "));
 //Processamento
 media = (nota1 + nota2) / 2;
 //Saída
-console.log(`Média: ${media.toFixed(1)}`);
+console.log(`Média: ${media.toFixed(2)}`);
+if (media < 5) {
+    console.log("REPROVADO!".red);
+} else {
+    console.log("APROVADO!".blue);
+}

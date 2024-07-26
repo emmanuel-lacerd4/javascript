@@ -204,3 +204,25 @@ pi, raio
 area = pi * raio ao quadrado
 //Saída
 area
+=========================================================
+Estruturas de controle
+
+condicionais:
+if if-else (encadeamento/aninhamento else-if) switch-case
+
+repetições:
+for while do-while
+
+if (condição) {
+    //condição verdadeira
+}
+
+if (condição) {
+    //condição verdadeira
+} else {
+    //condição falsa
+}
+
+Observações:
+1-) Sempre uma resposta será exibida independente da condição;
+2-) Não pode existir uma condição verdadeira e falsa ao mesmo tempo.
