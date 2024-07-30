@@ -4,8 +4,8 @@
  */
 
 //Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
 const colors = require('colors');
+const input = require('readline-sync');
 
 //Variáveis
 let nota1, nota2, media;
