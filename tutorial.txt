@@ -226,3 +226,32 @@ if (condição) {
 Observações:
 1-) Sempre uma resposta será exibida independente da condição;
 2-) Não pode existir uma condição verdadeira e falsa ao mesmo tempo.
+
+Exemplo de uso da estrutura else if
+No exemplo cálculo da média, estabelecer as seguintes condições:
+1-) Se o aluno tiver média menor que 2 (REPROVADO)
+2-) Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
+3-) Se a média for igual ou superior a 5 (APROVADO)
+
+Resumindo:
+if(condição 1) {
+    //condição 1 verdadeira
+} else if(condição 2) {
+    //condição 2 verdadeira
+} else if(condição 3) {
+    //condição 3 verdadeira
+} else {
+    //nenhuma das condições anteriores verdadeiras
+}
+
+Obs: O else final não é obrigatório.
+
+Exercício 3:
+No Brasil, o voto pode ser proibido, obrigatório ou facultativo, de acordo com os seguintes critérios:
+
+idade menor que 16 (proibido votar)
+idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
+16, 17 ou acima de 70 (voto é opcional)
+
+Desenvolva no console do JavaScript um APP para verificar em função da idade a obrigação ou não de votar. Testar com os valores 15(proibido),
+16, 17(facultativo), 18, 70(obrigatório) e 71(facultativo)

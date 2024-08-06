@@ -6,7 +6,7 @@
 console.clear();
 console.log("const___________________________");
 const nome = "Emmanuel Lacerda Nogueira";
-console.log(typeof(nome));
+console.log(typeof (nome));
 console.log(nome);
 //nome = "Emmanuel L. Nogueira";
 console.log("let___________________________");
@@ -21,5 +21,5 @@ var time = "São Paulo";
 console.log(time);
 time = "Palmeiras";
 console.log(time);
-var time = "Corinthians"; //Atenção! - Bugs no uso do var. 
+var time = "Corinthians"; // Atenção! - Bugs no uso do var. 
 console.log(time);

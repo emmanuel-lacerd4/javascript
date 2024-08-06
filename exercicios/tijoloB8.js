@@ -4,6 +4,7 @@
  * @author Emmanuel L. Nogueira
  */
 
+// Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 let m2, tijolos;
@@ -11,11 +12,11 @@ let m2, tijolos;
 console.clear();
 console.log("Cálculo da quantidade de tijolos por metro quadrado (tijolo baiano 8 furos");
 
-//Entrada
+// Entrada
 m2 = Number(input.question("Quantos metros quadrados voce precisa? "));
 
-//Processamento
+// Processamento
 tijolos = m2 * 28;
 
-//Saída
+// Saída
 console.log(`Você precisará de ${tijolos} tijolos`);

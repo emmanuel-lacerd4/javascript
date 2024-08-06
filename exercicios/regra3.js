@@ -9,14 +9,17 @@ console.clear();
 console.log("Calculo do valor da porcentagem:");
 console.log("X% de Y = valor");
 
-//Variaveis
+// Variáveis
 let x, y, valor;
-//Entrada
+
+// Entrada
 x = Number(input.question('Digite o valor de x: '));
-//Console.log(x);
+//console.log(x);
 y = Number(input.question('Digite o valor de y: '));
-//Processamento
+
+// Processamento
 valor = (x * y) / 100;
-//Saída
+
+// Saída
 //console.log(valor);
 console.log(`${x}% de ${y} = ${valor.toFixed(2)}`);

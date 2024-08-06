@@ -3,25 +3,30 @@
  * @author Emmanuel L. Nogueira
  */
 
-//Importar o pacote readline-sync (input no console)
+// Importar o pacote colors
 const colors = require('colors');
+
+// Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
-//Variáveis
+// Variáveis
 let nota1, nota2, media;
 
 console.clear();
 console.log("Cálculo da média");
-//Captura da nota pelo pacote readline-sync
-//Entrada
+// Captura da nota pelo pacote readline-sync
+// Entrada
 nota1 = Number(input.question("Digite a nota 1: "));
 nota2 = Number(input.question("Digite a nota 2: "));
-//Processamento
+// Processamento
 media = (nota1 + nota2) / 2;
-//Saída
+// Saída
 console.log(`Média: ${media.toFixed(2)}`);
-if (media < 5) {
-    console.log("REPROVADO!".red);
+// Exemplo de uso da estrutura if - else if
+if (media < 2) {
+    console.log("REPROVADO".red);
+} else if (media >= 2 && media < 5) {
+    console.log("RECUPERAÇÃO".yellow);
 } else {
-    console.log("APROVADO!".blue);
+    console.log("APROVADO".blue);
 }

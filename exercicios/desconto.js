@@ -4,6 +4,8 @@
  */
 
 console.clear();
+
+// Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 console.log("Cálculo do valor de desconto");

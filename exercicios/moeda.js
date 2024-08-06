@@ -7,7 +7,7 @@ console.clear();
 const input = require('readline-sync');
 
 console.log("Converta real para euro");
-let real, euro, valor
+let real, euro, valor;
 
 real = Number(input.question('Digite a quantidade de reais a serem convertidos: '));
 euro = Number(input.question("Digite o valor atual do Euro: "));
