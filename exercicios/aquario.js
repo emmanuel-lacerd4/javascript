@@ -3,12 +3,14 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
+// Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 // Variáveis
 let comprimento, largura, altura, litros;
 
-console.clear();
 console.log("Cálculo do volume de um aquário");
 
 // Entrada

@@ -3,6 +3,8 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
 // Importar o pacote colors
 const colors = require('colors');
 
@@ -11,8 +13,6 @@ const input = require('readline-sync');
 
 // Variáveis
 let nome, idade, peso, altura, imc;
-
-console.clear();
 
 console.log("____  ___  __  ___");
 console.log("|   | |  \/ | / __| ");

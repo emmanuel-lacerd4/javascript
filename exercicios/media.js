@@ -3,6 +3,8 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
 // Importar o pacote colors
 const colors = require('colors');
 
@@ -12,7 +14,6 @@ const input = require('readline-sync');
 // Variáveis
 let nota1, nota2, media;
 
-console.clear();
 console.log("Cálculo da média");
 // Captura da nota pelo pacote readline-sync
 // Entrada

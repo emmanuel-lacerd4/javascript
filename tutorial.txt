@@ -253,5 +253,31 @@ idade menor que 16 (proibido votar)
 idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
 16, 17 ou acima de 70 (voto é opcional)
 
-Desenvolva no console do JavaScript um APP para verificar em função da idade a obrigação ou não de votar. Testar com os valores 15(proibido),
-16, 17(facultativo), 18, 70(obrigatório) e 71(facultativo)
+Desenvolva no console do JavaScript um APP para verificar em função da idade a obrigação ou não de votar. 
+Testar com os valores 15(proibido),16, 17(facultativo), 18, 70(obrigatório) e 71(facultativo).
+=========================================================
+Estrutura de controle condicional: switch-case
+Sintaxe:
+Varíavel (número inteiro ou letra)
+switch(varíavel) {
+    case: 1
+        // Código se o valor da varíavel for igual a 1 
+        break
+    case: 2
+        // Código se o valor da varíavel for igual a 2 
+        break
+    default:
+        // Código caso o valor for diferente de 1 ou 2 
+        break
+}
+=========================================================
+Exercício 4: Desenvolva no console do JavaScript um aplicativo que faça o sorteio de um jogo de dado,
+ao resultado associar usando o switch case a imagem da face do dado correspondente.
+Exemplo:
+
+⚀ 
+⚁ 
+⚂
+⚃
+⚄
+⚅

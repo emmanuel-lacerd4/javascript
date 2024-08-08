@@ -3,9 +3,11 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
+// Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
-console.clear();
 console.log("Calculo do valor da porcentagem:");
 console.log("X% de Y = valor");
 

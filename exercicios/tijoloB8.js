@@ -4,12 +4,13 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 let m2, tijolos;
 
-console.clear();
 console.log("Cálculo da quantidade de tijolos por metro quadrado (tijolo baiano 8 furos");
 
 // Entrada

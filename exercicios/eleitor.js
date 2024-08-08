@@ -3,13 +3,13 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear();
+
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 // Variáveis
 let idade;
-
-console.clear();
 
 // Entrada
 idade = Number(input.question("Digite a sua idade: "));
