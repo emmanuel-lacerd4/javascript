@@ -275,9 +275,22 @@ Exercício 4: Desenvolva no console do JavaScript um aplicativo que faça o sort
 ao resultado associar usando o switch case a imagem da face do dado correspondente.
 Exemplo:
 
-⚀ 
-⚁ 
+⚀
+⚁
 ⚂
 ⚃
 ⚄
 ⚅
+
+=========================================================
+Estruturas de controle - laços de repetições
+for
+while
+do-while
+
+for - estrutura de repetição finitas(determinada)
+for (let i=1; condição; incremento/decremento) {
+    // Início; repetir enquanto condição verdadeira; i++ ou i--
+}
+
+// OBS: 
