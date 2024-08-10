@@ -8,59 +8,57 @@ console.clear();
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
+// Variáveis
+let jogador, computador;
+
 console.log("    __ _____ _____ ____ _____ _____ _____ _ _ _");
 console.log(" __|  |     |  |  |  __|   | |  _  |     | | | | ");
 console.log("|  |  |  |  |    -|  __| | | |   __|  |  | | | |");
 console.log("|_____|_____|__|__| ___|_|___|__|  |_____|_____|");
 console.log("");
-
-// Variáveis
-let jogador, computador, papel, pedra, tesoura;
-
-// Entrada
-papel = 0;
-pedra = 1;
-tesoura = 2;
-
-console.log("0. Papel");
-console.log("1. Pedra");
-console.log("2. Tesoura");
-
+console.log("1. Papel");
+console.log("2. Pedra");
+console.log("3. Tesoura");
 jogador = Number(input.question("Digite a opcao desejada: "));
+console.log("________________________________");
 
+
+
+// Lógica do jogador
 switch (jogador) {
-    case 0:
-        console.log("Jogador escolheu PAPEL!");
-        break
     case 1:
         console.log("Jogador escolheu PEDRA!");
         break
     case 2:
+        console.log("Jogador escolheu PAPEL!");
+        break
+    case 3:
         console.log("Jogador escolheu TESOURA!");
         break
     default:
         console.log("Opção invalida");
 }
 
-computador = Math.floor(Math.random() * 2)
+// Lógica do computador
+computador = Math.floor(Math.random() * 3 + 1)
 
 switch (computador) {
-    case 0:
-        console.log("Computador escolheu PAPEL!");
-        break
     case 1:
         console.log("Computador escolheu PEDRA!");
         break
     case 2:
+        console.log("Computador escolheu PAPEL!");
+        break
+    case 3:
         console.log("Computador escolheu TESOURA!");
         break
 }
 
+// Lógica para determinar empate ou declarar o vencedor
 if (jogador === computador) {
-    console.log("EMPATE! :@");
-}
-else if (jogador = 0 != computador) {
-    console.log("Jogador GANHOU!");
+    console.log("EMPATE!");
+} else if ((jogador === 1 && computador === 3) || (jogador === 2 && computador === 1 || (jogador === 3 && computador === 2))) {
+    console.log("Jogador VENCEU!")
 } else {
-    console.log("Jogador PERDEU!");
+    console.log("Computador VENCEU!")
 }
