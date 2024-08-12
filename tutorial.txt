@@ -293,4 +293,4 @@ for (let i=1; condição; incremento/decremento) {
     // Início; repetir enquanto condição verdadeira; i++ ou i--
 }
 
-// OBS: 
+// OBS: A variável declarada dentro da estrutura deve ser um número
