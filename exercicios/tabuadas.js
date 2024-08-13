@@ -3,6 +3,9 @@
  * @author Emmanuel L. Nogueira
  */
 
+// Importar o pacote readline-sync (input no console)
+const input = require('readline-sync');
+
 console.clear();
 
 for (let i = 1; i < 11; i++) {

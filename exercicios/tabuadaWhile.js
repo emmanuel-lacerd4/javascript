@@ -1,5 +1,5 @@
 /**
- * Tabuada
+ * Tabuada com While
  * @author Emmanuel L. Nogueira
  */
 
@@ -10,13 +10,15 @@ const input = require('readline-sync');
 
 // Variáveis
 let valor;
+let i = 1;
 
 // Entrada
-console.log("Tabuada");
-valor = Number(input.question("Digite o valor da tabuada: "));
+console.log("Tabuada com While");
 console.log("");
+valor = Number(input.question("Digite o numero da tabuada: "));
 
 // Processamento/Saída
-for (let i = 1; i < 11; i++) {
+while (i < 11) {
     console.log(`${valor} x ${i} = ${valor * i}`);
+    i++
 }
