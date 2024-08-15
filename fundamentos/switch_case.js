@@ -3,12 +3,12 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear(); // Limpar a tela.
+
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
 let opcao;
-
-console.clear();
 
 console.log("Boot - Escolha o sistema operacional");
 console.log("1. Windows");

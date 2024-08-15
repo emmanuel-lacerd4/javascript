@@ -3,7 +3,7 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear();
+console.clear(); // Limpar a tela.
 
 // Importar o pacote colors
 const colors = require('colors');

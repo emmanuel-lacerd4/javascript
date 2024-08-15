@@ -3,8 +3,9 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear(); // Limpar a tela.
+
 let media = 3;
-console.clear();
 
 // Na linguagem JavaScript podemos omitir o uso de chaves na estrutura if e if-else porém apenas uma linha de código é permitida.
 

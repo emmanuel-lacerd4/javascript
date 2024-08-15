@@ -3,7 +3,7 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear();
+console.clear(); // Limpar a tela.
 
 for (let i = 1; i < 11; i++) {
     console.log(i);

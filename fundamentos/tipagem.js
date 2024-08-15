@@ -3,7 +3,7 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear;
+console.clear(); // Limpar a tela.
 console.log("strings___________________________");
 let nome = "Emmanuel Lacerda Nogueira";
 console.log(typeof (nome));

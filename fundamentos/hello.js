@@ -3,8 +3,9 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear(); // Limpar a tela.
+
 // Uso do pacote colors.
 const colors = require('colors');
 
-console.clear(); // Limpar a tela.
 console.log("Hello World".green);

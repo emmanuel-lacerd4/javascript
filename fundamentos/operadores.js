@@ -7,7 +7,7 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear();
+console.clear(); // Limpar a tela.
 console.log("Operadores aritméticos");
 console.log("* | Multiplicação");
 console.log("/ | Divisão");

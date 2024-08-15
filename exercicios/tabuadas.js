@@ -6,7 +6,7 @@
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
-console.clear();
+console.clear(); // Limpar a tela.
 
 for (let i = 1; i < 11; i++) {
     console.log("");

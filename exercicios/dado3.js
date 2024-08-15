@@ -3,6 +3,8 @@
  * @author Emmanuel L. Nogueira
  */
 
+console.clear(); // Limpar a tela.
+
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
 
@@ -11,7 +13,6 @@ let face;
 let confirma = "n";
 
 // Entrada
-
 function jogarDado() {
     console.clear();
     console.log("Jogo do dado");

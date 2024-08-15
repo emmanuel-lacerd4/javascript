@@ -4,7 +4,7 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear();
+console.clear(); // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
 const input = require('readline-sync');
