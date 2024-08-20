@@ -22,11 +22,7 @@ console.log("");
 calculadora = Number(input.question("Digite a opcao desejada: "));
 
 
-// Lógica do usuário
-
-
-
-
+// Lógica da calculadora
 switch (calculadora) {
     case 1:
         console.log("Usuário escolheu a soma!");
