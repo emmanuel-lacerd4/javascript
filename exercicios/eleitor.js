@@ -3,22 +3,22 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
 // Variáveis
-let idade;
+let idade
 
 // Entrada
-idade = Number(input.question("Digite a sua idade: "));
+idade = Number(input.question("Digite a sua idade: "))
 
 // Processamento/Saída
 if (idade < 16) {
-   console.log("Proibido votar");
+   console.log("Proibido votar")
 } else if (idade === 16 || idade === 17 || idade > 70) {
-   console.log("Voto facultativo");
+   console.log("Voto facultativo")
 } else {
-   console.log("Voto obrigatório");
+   console.log("Voto obrigatório")
 }

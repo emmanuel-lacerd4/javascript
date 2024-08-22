@@ -388,4 +388,8 @@ Polimorfismo:
 Atenção! Para reescrever um método é necessário usar o "MESMO" nome do método original
 
 Atividade 4: Avaliação individual
-Slides 62 a 67 exceto slide 65 (ex.3) (POO Exercício 1 - carros)
+Slides página 16 a 20 (POO - Desafio)
+
+Encapsulamento:
+- Reforço na segurança dos atributos(variáveis)
+Dica: get e set (acesso a variável encapsulada)

@@ -3,23 +3,23 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
 // Variáveis
-let comprimento, largura, altura, litros;
+let comprimento, largura, altura, litros
 
-console.log("Cálculo do volume de um aquário");
+console.log("Cálculo do volume de um aquário")
 
 // Entrada
-comprimento = Number(input.question("Digite o comprimento em cm do aquario: "));
-largura = Number(input.question("Digite a largura em cm do aquario: "));
-altura = Number(input.question("Digite a altura em cm do aquario: "));
+comprimento = Number(input.question("Digite o comprimento em cm do aquario: "))
+largura = Number(input.question("Digite a largura em cm do aquario: "))
+altura = Number(input.question("Digite a altura em cm do aquario: "))
 
 // Processamento
-litros = (comprimento * largura * altura) / 1000;
+litros = (comprimento * largura * altura) / 1000
 
 // Saída
-console.log(`No aquário cabem ${litros.toFixed(1)} litros`);
+console.log(`No aquário cabem ${litros.toFixed(1)} litros`)
