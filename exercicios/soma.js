@@ -3,15 +3,15 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
-let soma = 0;
+let soma = 0
 
 for (let i = 1; i < 101; i++) {
-    soma += i;
+    soma += i
 }
 
-console.log(soma);
+console.log(soma)

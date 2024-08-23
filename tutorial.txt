@@ -1,25 +1,26 @@
+=========================================================
 Boas práticas na programação:
 
-1. Documentação
+1-) Documentação
 /**
 * Descrição do código (o que faz?)
 * @author Nome do autor do código
 * @link https://github.com/xXEmano11Xx
 */
 
-2. Código limpo
+2-) Código limpo
 - Não abusar de comentários
 
-3. Nomeação:
+3-) Nomeação:
     - Não usar caracteres especiais, espaço e acentos
     - Nomes de arquivos, variaveis, 
     funções devem ser escritos com a primeira letra em caixa baixa (letra minuscula), 
     iniciar com caixa alta (letra maiúscula) apenas em classes modelos.
     - Definir nomes que tenham relação com o problema a ser resolvido.
 
-4. Alinhamento (identação do código)
+4-) Alinhamento (identação do código)
 
-5. Quanto menos código usado para o problema, melhor!
+5-) Quanto menos código usado para o problema, melhor!
 =========================================================
 Comandos de terminal
 
@@ -121,7 +122,7 @@ NODE - Plataforma para uso do JavaScript fora do browser(navegador)
  início do código (logo abaixo do cabeçalho de 
  documentação)
  =======================================================
- Algoritmo: "receita de bolo"
+ Algorítmo: "receita de bolo"
 
 Exemplo 1:
 Objetivo: Calcular a média de 2 notas
@@ -136,10 +137,11 @@ Entrada: nota1,nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media
     
-    Ex 2:
-    Desenvolver um app modo console para calculo de porcentagem: 1
+    Exemplo 2:
+    Desenvolver um app modo console para calculo de porcentagem:
     Ex: 10% de 200 = 20
          x      y    valor
+    
     200---------100%
     valor(20)---10%
 valor x 100 = 200 x 10
@@ -364,7 +366,9 @@ Opções:
 
 Digite a opção desejada: 1
 10 + 5 = 15
+
 ========================================================
+
 POO
 
 - Abstração (classe modelo)
@@ -393,3 +397,12 @@ Slides página 16 a 20 (POO - Desafio)
 Encapsulamento:
 - Reforço na segurança dos atributos(variáveis)
 Dica: get e set (acesso a variável encapsulada)
+
+========================================================
+
+Array (vetor)
+Na linguagem JavaScript array é um objeto
+
+Array multidimensional (matriz)
+É um array que contém outro(s) array(s)
+

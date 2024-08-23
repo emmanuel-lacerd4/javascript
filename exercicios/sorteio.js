@@ -3,15 +3,15 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
 // Variáveis
-let sorteio;
+let sorteio
 
-input.question("Pressione a tecla [Enter] para sortear um numero");
+input.question("Pressione a tecla [Enter] para sortear um numero")
 
-sorteio = Math.floor(Math.random() * 16 + 1);
-console.log(sorteio);
+sorteio = Math.floor(Math.random() * 16 + 1)
+console.log(sorteio)

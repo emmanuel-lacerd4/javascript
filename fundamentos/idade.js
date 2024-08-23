@@ -3,21 +3,21 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
-let idade;
+let idade
 
-console.clear();
-console.log("Estudo da estrutura if-else");
-console.log("Validar maioridade");
-idade = Number(input.question("Digite a sua idade: "));
+console.clear()
+console.log("Estudo da estrutura if-else")
+console.log("Validar maioridade")
+idade = Number(input.question("Digite a sua idade: "))
 
 // Uso da estrutura if-else para validar a idade
 if (idade < 18) {
-    console.log("Menor de idade.");
+    console.log("Menor de idade.")
 } else {
-    console.log("Maior de idade.");
+    console.log("Maior de idade.")
 }

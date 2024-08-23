@@ -4,14 +4,14 @@
  */
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 for (let i = 1; i < 11; i++) {
-    console.log("");
-    console.log(`Tabuada do ${i}: `);
+    console.log("")
+    console.log(`Tabuada do ${i}: `)
     for (let j = 1; j < 11; j++) {
-        console.log(`${i} x ${j} = ${i * j}`);
+        console.log(`${i} x ${j} = ${i * j}`)
     }
 }

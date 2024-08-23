@@ -3,24 +3,24 @@
  * @author Emmanuel L. Nogueira
  */
 
-console.clear(); // Limpar a tela.
+console.clear() // Limpar a tela.
 
 // Importar o pacote readline-sync (input no console)
-const input = require('readline-sync');
+const input = require('readline-sync')
 
-let opcao;
+let opcao
 
-console.log("Boot - Escolha o sistema operacional");
-console.log("1. Windows");
-console.log("2. Linux");
-opcao = Number(input.question("Digite a opcao desejada: "));
+console.log("Boot - Escolha o sistema operacional")
+console.log("1. Windows")
+console.log("2. Linux")
+opcao = Number(input.question("Digite a opcao desejada: "))
 switch (opcao) {
     case 1:
-        console.log("Carregando o Windows.........");
+        console.log("Carregando o Windows.........")
         break
     case 2:
-        console.log("Carregando o Linux...");
+        console.log("Carregando o Linux...")
         break
     default:
-        console.log("Opção inválida");
+        console.log("Opção inválida")
 }
