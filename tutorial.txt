@@ -1,42 +1,40 @@
-=========================================================
+ =======================================================
 Boas práticas na programação:
 
 1-) Documentação
 /**
-* Descrição do código (o que faz?)
-* @author Nome do autor do código
-* @link https://github.com/xXEmano11Xx
-*/
+ * Descrição do código (o que faz?)
+ * @author Emmanuel L. Nogueira
+ * @link https://github.com/emmanuel-lacerd4
+ */
 
 2-) Código limpo
 - Não abusar de comentários
 
 3-) Nomeação:
-    - Não usar caracteres especiais, espaço e acentos
-    - Nomes de arquivos, variaveis, 
-    funções devem ser escritos com a primeira letra em caixa baixa (letra minuscula), 
-    iniciar com caixa alta (letra maiúscula) apenas em classes modelos.
-    - Definir nomes que tenham relação com o problema a ser resolvido.
+   - Não usar caracteres especiais, espaço e acentos
+   - Nomes de arquivos, variáveis, funções devem ser    escritos com a primeira letra em caixa baixa (letra minúscula), iniciar com caixa alta (letra maiúscula) apenas classes modelos.
+   - definir nomes que tenham relação com o problema a ser resolvido.
 
 4-) Alinhamento (identação do código)
 
-5-) Quanto menos código usado para o problema, melhor!
-=========================================================
-Comandos de terminal
+5-) Quanto menos código usado para o problema melhor!
+========================================================
+ Comandos de terminal:
 
-cls ou clear (limpar a tela do terminal)
-node -v (exibe a versão do node)
-cd pasta (entrar na pasta)
-cd .. (voltar um nível)
-dir ou ls (listar os arquivos e diretórios)
-node arquivo.js (executar um arquivo JavaScript)
-seta para cima (repete os comandos)
-<tab> completa os comandos.
-=========================================================
+ cls ou clear (limpar a tela do terminal)
+ node -v  (exibe a versão do node)
+ cd pasta (entrar na pasta)
+ cd .. (voltar um nível)
+ dir ou ls (listar os arquivos e diretórios)
+ node arquivo.js (executar um arquivo JavaScript)
+ seta para cima (repete os comandos)
+ <tab> completa o comandos
+========================================================
 VSCode: Dicas
-Combinação de teclas <alt> <shift> <f> //alinhamento do código
+Combinação de teclas <alt><shift><f> //alinhamento
 Mais dicas: VS Code: Produtividade Infinita (repositório)
-=========================================================
+========================================================
 JavaScript:
 
 Características:
@@ -55,13 +53,13 @@ Operadores:
 Observações:
 - Regra de precedência
 - % (não calcula porcentagem e sim o resto da divisão)
-Ex: 
-       |  3
-    10 |_______
-    1     3 
+Ex:
+    |  3
+ 10 |______
+  1    3
 
-10 / 3 //3.33
-10 % 3 //resultado é 1
+10 / 3  //3.33
+10 % 3  //resultado é 1
 
 Comparadores de igualdade:
 NÃO USAR == !=
@@ -78,83 +76,90 @@ Estudo das variáveis:
 Obs: No JS as variáveis são dinâmicamente tipadas
 const (criar uma constante)
 var ou let (criar uma variável)
-ATENÇÃO!!! Não usar jamais o comando var
+ATENÇÃO!!! Não usar jamais o var
 
 Tipagem dinâmica:
 No JavaScript o tipo string é definido quando o conteúdo da variável estiver entre aspas ""
 
 Variáveis numéricas podem ser números inteiros e não inteiros
-Observação , (vírgula é um caractere e não um número)
+Observação , (vírgula é um caractere e não número)
 se necessário converter a entrada de dados de "," para "."
-.replace(",",".")
+.replace(",",".") 
 
-Na entrada de dados númericos via terminal ou formulário é 
-necessário converter para números
+Na entrada de dados numéricos via terminal ou formulário é necessário converter para números
 classe Number
 ========================================================
 Git e GitHub
-Material de Apoio: https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+Material de apoio:
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
 
-Configurando o Git Bash
-- Instalar o Git Bash
-Abrir o Git Bash
-git config --global user.name "qualquer nome de usuário"
-git config --global user.email "e-mail do GitHub"
+Configurando o git
+- Instalar o git
+Abrir o git bash
+git config --global user.name "seu nome"
+git config --global user.email "seu email github"
 
-git clone "link do repositório no GitHub" (clonar o repositório na máquina local)
+git clone link_do_repositório (clonar o repositório na máquina local)
 
-Observação: digitar os comandos na raíz do repositório
+Observação: digitar os comandos na raiz do repositório
 git status (verifica o status do repositório local em relação ao GitHub)
 git add . (adiciona todas as alterações)
 git commit -m "descrição das alterações"
-git push
 ========================================================
-NODE - Plataforma para uso do JavaScript fora do browser(navegador)
+NODE - Plataforma para uso do JS fora do browser(navegador)
  |__ V8 (google chromium)
  |__ bibliotecas C / C++
  |__ pacotes npm (node packager manager)
  npm ls (lista os pacotes)
- npm i ou npm install (instala o pacote)
+ npm i ou npm install (instala um pacote)
  npm r nome_do_pacote (remove o pacote)
 
- Pacote = Módulo = bibliotecas
- Para usar o pacote é necessário fazer a importação no 
- início do código (logo abaixo do cabeçalho de 
- documentação)
- =======================================================
- Algorítmo: "receita de bolo"
+ Pacote = Módulo = biblioteca
+ Para usar um pacote é necessário fazer a importação no início do código (logo abaixo do cabeçalho de documentação)
+========================================================
+Algorítmo: "receita de bolo"
 
 Exemplo 1:
 Objetivo: Calcular a média de 2 notas
 
-             nota 1 + nota 2
-média = _____________________
-                    2
+         nota 1 + nota 2
+média = _________________
+                2
 
 Variáveis: nota1,nota2,media
 
 Entrada: nota1,nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media
-    
-    Exemplo 2:
-    Desenvolver um app modo console para calculo de porcentagem:
-    Ex: 10% de 200 = 20
-         x      y    valor
-    
-    200---------100%
-    valor(20)---10%
-valor x 100 = 200 x 10
-valor = 200 x 10
-        ________        valor = 2000
-           100                  ____    valor = 20
-                                100
-//Variáveis
-x, y, valor
-//Entrada
-x, y
+
+========================================================
+Exemplo 2:
+Desenvolver um app modo console para cálculo de porcentagem: 
+Ex: 10% de 200 = 20
+     x      y   valor
+
+Algorítmo:
+
+y ------------ 100%
+valor ---------- x
+
+valor * 100 = y * x
+
+          y * x               
+valor = ___________    
+           100       
+
+valor = (x * y) / 100
+
+//variáveis
+x,y,valor
+
+//entrada
+x,y
+
 //Processamento
 valor = (x * y) / 100
+
 //Saída
 valor
 
@@ -162,128 +167,134 @@ Exercício 1:
 Desenvolver um app modo console para calcular o valor do desconto:
 Ex:
 valor total: 200.00
-                x
 desconto: 5%
-           y
 total com desconto: 190.00
-                    valor
 
-//Variáveis
-x, y, valor
-//Entrada
-x, y
-//Processamento
-valor = (x - y) /
+valor com desconto = valor total - desconto
 
-190 * 100 = 200 * 5
-valor        x    y
-19.000
-______
-1000
+// variáveis
+total, desconto, valor, totalDesconto
 
-Exercício 2:
-Desenvolver um app no console para conversão de moeda (real para euro).
+//entrada
+total, desconto
 
-//Variáveis
+//processamento 1
+valor = (desconto * total) / 100
+
+//saída 1
+valor
+
+//processamento 2
+totalDesconto = total - valor
+
+//saída 2
+totalDesconto
+
+Exercício 2: Desenvolver um app no console para conversão de moeda (real para euro)
+
+cotação da moeda: 5.89
+
+Para converter de real para euro, dividir o valor em reais pela cotação do euro
+
+//variáveis
 real, euro, total
-//Entrada
+
+//entrada
 real, euro
-//Processamento
+
+//processamento
 total = real / euro
-//Saída
+
+//saída
 total
-
-Exercício 3:
-calcular a área do circulo
-constantes
-pi = 3,1415
-variaveis
-area, raio, diametro, circunferência
-
-//Entrada
-pi, raio
-//Processamento
-area = pi * raio ao quadrado
-//Saída
-area
 ========================================================
 Estruturas de controle
 
 condicionais:
-if if-else (encadeamento/aninhamento else-if) switch-case
+if if-else (encadeamento/aninhamento else if) switch-case
 
 repetições:
 for while do-while
 
 if (condição) {
-    //condição verdadeira
+   //condição verdadeira
 }
 
 if (condição) {
-    //condição verdadeira
+   //condição verdadeira
 } else {
-    //condição falsa
+   //condição falsa
 }
 
 Observações:
-1. Sempre uma resposta será exibida independente da condição;
-2. Não pode existir uma condição verdadeira e falsa ao mesmo tempo.
+1-) Sempre uma resposta será exibida independente da condição
+2-) Não pode existir uma condição verdeira e falsa ao memso tempo
 
 Exemplo de uso da estrutura else if
 No exemplo cálculo da média, estabelecer as seguintes condições:
-1. Se o aluno tiver média menor que 2 (REPROVADO)
-2. Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
-3. Se a média for igual ou superior a 5 (APROVADO)
+1-) Se o aluno tiver média menor que 2 (REPROVADO)
+2-) Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
+3-) Se a média for igual ou superior a 5 (APROVADO)
 
 Resumindo:
 if(condição 1) {
-    //condição 1 verdadeira
+   //condição 1 verdadeira
 } else if(condição 2) {
-    //condição 2 verdadeira
+   //condição 2 verdadeira
 } else if(condição 3) {
-    //condição 3 verdadeira
+   //condição 3 verdadeira
 } else {
-    //nenhuma das condições anteriores verdadeiras
+   //nenhuma das condições anteriores verdadeiras
 }
 
-Obs: O else final não é obrigatório.
+Obs: O else final não é obrigatório
 
 Exercício 3:
 No Brasil, o voto pode ser proibido, obrigatório ou facultativo, de acordo com os seguintes critérios:
 
 idade menor que 16 (proibido votar)
 idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
-16, 17 ou acima de 70 (voto é opcional)
+16,17 ou acima de 70 (voto é opcional)
 
-Desenvolva no console do JavaScript um APP para verificar em função da idade a obrigação ou não de votar. 
-Testar com os valores 15(proibido),16, 17(facultativo), 18, 70(obrigatório) e 71(facultativo).
+Desenvolva no console do JS um APP para verificar em função da idade a obrigação ou não de votar. Testar com os valores 15(proibido),16,17(facultativo),18,70(obrigatório) e 71(facultativo)
 ========================================================
 Estrutura de controle condicional: switch-case
 Sintaxe:
-Varíavel (número inteiro ou letra)
-switch(varíavel) {
-    case: 1
-        // Código se o valor da varíavel for igual a 1 
-        break
-    case: 2
-        // Código se o valor da varíavel for igual a 2 
-        break
-    default:
-        // Código caso o valor for diferente de 1 ou 2 
-        break
+variável (número inteiro ou letra)
+switch(variável) {
+   case: 1
+      //código se o valor da variável for igual a 1
+      break
+   case: 2
+      //código se o valor da variável for igual a 2
+      break
+   default:
+      //código caso valor diferente de 1 ou 2
+      break
 }
-========================================================
-Exercício 4: Desenvolva no console do JavaScript um aplicativo que faça o sorteio de um jogo de dado,
-ao resultado associar usando o switch case a imagem da face do dado correspondente.
+========================================================Exercício 4: Desenvolva no console do JS um aplicativo
+que faça o sorteio de um jogo de dado, ao resultado associar usando switch case a imagem da face do dado correspondente
 Exemplo:
 
-⚀
-⚁
-⚂
-⚃
-⚄
-⚅
+ ------
+| o  o |
+| o  o |
+ ------  
 
+Atividade 2 - Avaliação em dupla - desenvolvimento do jogo JokenPow, conforme modelo abaixo:
+    __ _____ _____ _____ _____ _____ _____ _ _ _
+ __|  |     |  |  |   __|   | |  _  |     | | | |
+|  |  |  |  |    -|   __| | | |   __|  |  | | | |
+|_____|_____|__|__|_____|_|___|__|  |_____|_____|
+
+1. Pedra
+2. Papel
+3. Tesoura
+Digite a opcao desejada: 1
+========================================================
+Jogador escolheu Pedra
+Computador escolheu Tesoura
+JOGADOR VENCEU
 ========================================================
 Estruturas de controle - laços de repetições
 for
@@ -291,63 +302,56 @@ while
 do-while
 
 for - estrutura de repetição finita(determinada)
-for (let i = 1; condição; incremento/decremento) {
-    // Início; repetir enquanto condição verdadeira; i++ ou i--
+
+for (let i=1; condição; incremento/decremento) {
+    //início; repetir enquanto condição verdadeira; i++ ou i--
 }
 
-// OBS: A variável declarada dentro da estrutura deve ser um número inteiro
+//obs: a variável declarada dentro da estrutura deve ser um número inteiro
 
 Exercício 5:
+5.1 Escreva um código que some todos os números de 1 a 100 e exiba o resultado no console.
 
-Escreva um código
+5.2 Escreva um código que use um laço for para contar quantos números pares existem de 1 a 20.
 
 while do-while - estruturas de repetições infinitas
 
 while (condição) {
-    // Analisa a condição e executa o código enquanto a condição 
-    for verdadeira
+   // analisa a condição e executa o código enquanto a condição for verdadeira
 }
 
 do {
-    // Sempre executa o código uma vez independente da condição,
-    depois se comporta como while
-} while (condição)
+   // sempre executa o código uma vez independente da condição, depois se comporta como while
+} while(condição)
 
 Exercício 6:
-Desenvolver um aplicativo para calcular a tabuada, semelhante ao 
-exemplo de aula usando a estrutura while no lugar do for
+Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo de aula usando a estrutura while no lugar do for
+========================================================
+Funções:
+Uma função é um bloco de código que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela como uma "receita" que você escreve uma vez e pode usar várias vezes, sem precisar reescrever o código.
 
-Funções: 
-Uma função é um bloco de código que realiza uma tarefa simples específica
-ou calcula um valor. Você pode pensar nela como uma "receita" que
-você escreve uma vez e pode usar várias vezes, sem precisar
-reescrever o código.
+Nomeie funções de acordo com o problema a ser resolvido
+Use "verbos" para nomear funções. Ex: calcular() cadastrar()
 
-Nomeie funções de acordo com o problema a ser resolvido.
-Use "verbos" para nomear funções. Ex: calcular(), cadastrar().
-
-Para criar uma função simples(literal) usamos a palavra reservada
-function, e escolhemos um nome, conforme sintaxe abaixo:
+Para criar uma função simples(literal) usamos a palavra reservada function, e escolhemos um nome, conforme sintaxe abaixo:
 
 function nome() {
-    // Código
+   //código
 }
 
-Para executar uma função devemos escrever o nome da função seguido
-de parêntese:
+Para executar uma função devemos escrever o nome da função seguido de parêntese:
 nome()
 
-// Variáveis
+// variáveis
 Tipos primitivos: string, number, boolean
 Outros tipos: function, object
 
 // Funções em JavaScript
 
 - literais (nome)
+
 - atribuídas (variável) "Função anônima"
-São funções atribuídas a uma constante ou variável onde o
-resultado do processamento da função é armazenado e pode ser
-utilizado, além disso funções atribuídas podem ser simplificadas
+São funções atribuídas a uma constante ou variável onde o resultado do processamento da função é armazenado e pode ser utilizado, além disso funções atribídas podem ser simplificadas
 (arrow function)
 
 Atividade 3 (Avaliação em dupla)
@@ -356,19 +360,17 @@ Desenvolver uma calculadora no console usando funções, conforme modelo abaixo:
 Calculadora:
 Digite o primeiro número: 10
 Digite o segundo número: 5
-Opções:
 
+Opções:
 1. Somar
 2. Subtrair
 3. Multiplicar
 4. Dividir
 5. Calcular a porcentagem
 
-Digite a opção desejada: 1
+Digite a opcao desejada: 1
 10 + 5 = 15
-
 ========================================================
-
 POO
 
 - Abstração (classe modelo)
@@ -376,33 +378,29 @@ POO
 - Polimorfismo
 
 - Encapsulamento (segurança)
-
-Slide de apoio: (49 a 60)
+Slides de apoio: (49 a 60)
 https://professorjosedeassis.github.io/javaSE/#/49
 
 Obs: Para criar uma classe modelo usamos uma letra maiúscula no ínicio
 
-No JavaScript a classe modelo é uma função
+No JS a classe modelo é uma função
 
 Sempre que existir a palavra new um objeto é criado(instanciado)
 
 O ponto após o objeto é usado para acessar os recursos (atributos e métodos) da classe modelo
 
 Polimorfismo:
-Atenção! Para reescrever um método é necessário usar o "MESMO" nome do método original
+Atencão! Para reescrever um método é necessário usar o "MESMO" nome do método original
 
 Atividade 4: Avaliação individual
-Slides página 16 a 20 (POO - Desafio)
+SLides 16 a 20 (POO Exercício 1 - carros)
 
 Encapsulamento:
 - Reforço na segurança dos atributos(variáveis)
 Dica: get e set (acesso a variável encapsulada)
-
 ========================================================
-
 Array (vetor)
 Na linguagem JavaScript array é um objeto
 
 Array multidimensional (matriz)
 É um array que contém outro(s) array(s)
-
