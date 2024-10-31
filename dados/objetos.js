@@ -5,7 +5,7 @@
  */
 
 const funcionario1 = {}
-console.log(typeof(funcionario1))
+console.log(typeof (funcionario1))
 // Adicionar dados a estrutura (CRUD Create)
 funcionario1.nome = "Emmanuel L. Nogueira"
 funcionario1.cargo = "Técnico em Informática"

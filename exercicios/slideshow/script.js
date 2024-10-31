@@ -15,7 +15,7 @@ function show() {
     document.getElementById('slide').className += 'fadeOut'
     // setTimeout(gera um temporizador)
     setTimeout(() => {
-        document.getElementById('slide').src = (`imagens/${slides[indice]}`)
+        document.getElementById('slide').src = (`img/${slides[indice]}`)
         document.getElementById('slide').className = ''
     }, 1000) // Trocar a cada 1s (1000ms = 1s)
     indice++

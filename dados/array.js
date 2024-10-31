@@ -133,7 +133,7 @@ console.table(alunosEM3)
 
 // ATENÇÃO !!!
 // Na filtragem criar uma cópia para exibição (... cópia do array )
-let alunosOrdenados = [... alunosEM3]
+let alunosOrdenados = [...alunosEM3]
 alunosOrdenados.sort((a, z) => {
     return (a.nome.localeCompare(z.nome))
 })

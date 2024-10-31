@@ -3,4 +3,4 @@
  * @author Emmanuel L. Nogueira
  */
 
-document.write(`<h2>Professor José de Assis</h2>`)
+document.write(`<h2>Emmanuel L. Nogueira</h2>`)
